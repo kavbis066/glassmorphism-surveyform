@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <!-- <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div> -->
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+            <div class="container">
+                <div class="form">
+                    <h2>Survey Form</h2>
+                    <form>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" placeholder="Enter your email" required/>
+                        </div>
+                        <!-- <div class="inputBox">
+                            <input type="number" placeholder="Age" min="18" max="45">
+                        </div> -->
+                        <div class="inputBox">
+                            <label>Which option best describes your current role?</label>
+                            <select id="dropdown">
+                                <option value="" disabled selected>Select a role</option>
+                                <option>Student</option>
+                                <option>Full time job</option>
+                                <option>Full time learner</option>
+                                <option>Prefer not to say</option>
+                                <option>Other</option>
+                              </select>
+                        </div>
+                        <div class="inputBox">
+                            <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
+                            <input type="radio" name="recommend" value="Definitely">
+                            <label for="definitely"><span></span>Definitely</label>
+                            <input type="radio" name="recommend" value="Maybe" checked>
+                            <label for="maybe"><span></span>Maybe</label>
+                            <input type="radio" name="recommend" value="Not sure">
+                            <label for="not-sure"><span></span>Not sure</label>
+                        </div>
+                        <div class="inputBox">
+                            <textarea rows="4" placeholder="Enter your comments here..."></textarea>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
